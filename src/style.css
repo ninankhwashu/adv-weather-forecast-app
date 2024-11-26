@@ -66,6 +66,7 @@ footer {
 }
 
 .weather-app-city {
+  color: #266ca9;
   margin: 0;
   font-size: 38px;
   line-height: 48px;
@@ -92,12 +93,14 @@ footer {
 }
 
 .weather-app-temperature {
+  color: #266ca9;
   font-size: 88px;
   line-height: 88px;
   font-weight: bold;
 }
 
 .weather-app-unit {
+  color: #266ca9;
   margin-top: 6px;
   font-size: 28px;
 }
