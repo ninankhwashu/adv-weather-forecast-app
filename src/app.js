@@ -37,7 +37,7 @@ function refreshWeather(response) {
   timeElement.innerHTML = formatDate(new Date());
   descriptionElement.innerHTML = response.data.condition.description;
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
-  windSpeedElement.innerHTML = `${response.data.wind.speed}km/h`;
+  windSpeedElement.innerHTML = `${response.data.wind.speed} km/h`;
   temperatureElement.innerHTML = Math.round(response.data.temperature.current);
 
   getForecast(response.data.city);
